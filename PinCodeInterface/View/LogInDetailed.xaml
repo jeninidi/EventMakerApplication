@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="PinCodeInterface.View.LogInDetailed"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PinCodeInterface.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="LogInGrid" Background="#FF04556C">
+        <TextBlock x:Name="LogInTextBlock" HorizontalAlignment="Left" Height="65" Margin="86,30,0,0" TextWrapping="Wrap" Text="Log In" VerticalAlignment="Top" Width="217" FontSize="48"/>
+        <TextBlock x:Name="UsernameTextBlock" HorizontalAlignment="Left" Height="42" Margin="29,159,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="111" FontSize="22"/>
+        <TextBlock x:Name="PasswordTextBlock" HorizontalAlignment="Left" Height="42" Margin="31,242,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="107" FontSize="22"/>
+        <TextBox x:Name="UsernameTextBox" HorizontalAlignment="Left" Height="43" Margin="174,157,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="163"/>
+        <PasswordBox x:Name="PasswordTextBox" HorizontalAlignment="Left" Height="43" Margin="174,240,0,0" VerticalAlignment="Top" Width="163"/>
+        <Button x:Name="LogInButton1" Content="Log In" HorizontalAlignment="Left" Height="71" Margin="91,386,0,0" VerticalAlignment="Top" Width="200" Click="LogInButton1_Click"/>
+        <Button x:Name="ForgottenPassButton" Content="Forgot your password?" HorizontalAlignment="Left" Height="49" Margin="90,502,0,0" VerticalAlignment="Top" Width="203" Click="ForgottenPassButton_Click"/>
+
+    </Grid>
+</Page>

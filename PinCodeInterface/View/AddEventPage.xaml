@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="PinCodeInterface.View.AddEventPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PinCodeInterface.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="AddEventGrid" Background="#FF04556C">
+        <TextBlock x:Name="AddEventTextBlock" HorizontalAlignment="Left" Height="55" Margin="11,16,0,0" TextWrapping="Wrap" Text="Add New Event" VerticalAlignment="Top" Width="341" FontSize="48"/>
+        <TextBlock x:Name="NewEventTitleTextBlock" HorizontalAlignment="Left" Height="41" Margin="17,153,0,0" TextWrapping="Wrap" Text="Title" VerticalAlignment="Top" Width="110" FontSize="24"/>
+        <TextBlock x:Name="DescriptionTextBlock" HorizontalAlignment="Left" Height="41" Margin="16,232,0,0" TextWrapping="Wrap" Text="Description" VerticalAlignment="Top" Width="162" FontSize="24"/>
+        <TextBlock x:Name="PlaceTextBlock" HorizontalAlignment="Left" Height="41" Margin="16,314,0,0" TextWrapping="Wrap" Text="Place" VerticalAlignment="Top" Width="110" FontSize="24"/>
+        <TextBlock x:Name="DateTextBlock" HorizontalAlignment="Left" Height="41" Margin="11,380,0,0" TextWrapping="Wrap" Text="Date" VerticalAlignment="Top" Width="110" FontSize="24"/>
+        <TextBlock x:Name="TimeTextBlock" HorizontalAlignment="Left" Height="41" Margin="11,440,0,0" TextWrapping="Wrap" Text="Time" VerticalAlignment="Top" Width="110" FontSize="24"/>
+        <TextBox x:Name="TitleTextBox" HorizontalAlignment="Left" Height="42" Margin="166,151,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="179"/>
+        <TextBox x:Name="DescriptionTextBox" HorizontalAlignment="Left" Height="42" Margin="166,231,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="179"/>
+        <TextBox x:Name="PlaceTextBox" HorizontalAlignment="Left" Height="42" Margin="166,315,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="179"/>
+        <TimePicker x:Name="TimePicker" HorizontalAlignment="Left" Height="39" Margin="73,448,-2,0" VerticalAlignment="Top" Width="289"/>
+        <DatePicker x:Name="DatePicker" HorizontalAlignment="Left" Height="30" Margin="73,388,0,0" VerticalAlignment="Top" Width="287"/>
+        <Button x:Name="button" Content="Add Event" HorizontalAlignment="Left" Height="68" Margin="100,527,0,0" VerticalAlignment="Top" Width="187" FontSize="22"/>
+
+    </Grid>
+</Page>
